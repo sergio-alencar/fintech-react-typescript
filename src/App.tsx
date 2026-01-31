@@ -9,7 +9,7 @@ import "./Style.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fintech-react-typescript">
       <DataContextProvider>
         <div className="container">
           <Sidenav />
